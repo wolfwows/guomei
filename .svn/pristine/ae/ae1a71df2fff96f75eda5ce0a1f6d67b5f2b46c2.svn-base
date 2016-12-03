@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>收货地址</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/getadress2.css"/>
+	</head>
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont"onclick="history.back()">
+				&#xe60a;
+			</a>
+			<span class="ftopNav-t">商品描述</span>
+		</div>
+		
+		<div class="fgetAdressCon">
+			<div class="addressItem">
+			<div class="adressCom">
+				<div class="ischecked">
+					<input type="radio" name="check" id="check1" value="" class="adressSelect" />
+					<label for="check1"></label>
+				</div>
+				
+				<div class="gtext">
+					<p class="guseInfo">
+						<span class="guerName">淘星星</span>
+						<span class="guserPhone">159****8689</span>
+					</p>
+					<p class="gAdressdes">
+						<span class="gapprove" style="display: inline-block;">默认</span>
+						<span class="gadressCon">
+							北京市朝阳区霄云路26号鹏润大厦B座23层2309国美在线商务有限公司
+						</span>
+						
+					</p>
+				</div>
+			</div>
+			<div class="geidtaddress">
+				<div class="eidtNav">
+					<ul>
+						<li class="item5">设为默认</li>
+						<li class="item5">删除</li>
+					</ul>
+				</div>
+				<span class="eidt">
+					<img src="img/iconImg/edit.png"/>
+					 编辑
+				</span>
+			</div>
+			</div>
+			
+			
+			
+			
+			
+			<div class="addressItem">
+			<div class="adressCom">
+				<div class="ischecked">
+					<input type="radio" name="check" id="check2" value="" class="adressSelect" />
+					<label for="check2"></label>
+				</div>
+				
+				<div class="gtext">
+					<p class="guseInfo">
+						<span class="guerName">淘星星</span>
+						<span class="guserPhone">159****8689</span>
+					</p>
+					<p class="gAdressdes">
+						<span class="gapprove">默认</span>
+						<span class="gadressCon">
+							北京市朝阳区霄云路26号鹏润大厦B座23层2309国美在线商务有限公司
+						</span>
+						
+					</p>
+				</div>
+			</div>
+			<div class="geidtaddress">
+				<div class="eidtNav">
+					<ul>
+						<li class="item5">设为默认</li>
+						<li class="item5">删除</li>
+					</ul>
+				</div>
+				<span class="eidt">
+					<img src="img/iconImg/edit.png"/>
+					 编辑
+				</span>
+			</div>
+			</div>
+			
+			
+			
+			
+			
+			<div class="addressItem">
+			<div class="adressCom">
+				<div class="ischecked">
+					<input type="radio" name="check" id="check3" value="" class="adressSelect" />
+					<label for="check3"></label>
+				</div>
+				
+				<div class="gtext">
+					<p class="guseInfo">
+						<span class="guerName">淘星星</span>
+						<span class="guserPhone">159****8689</span>
+					</p>
+					<p class="gAdressdes">
+						<span class="gapprove">默认</span>
+						<span class="gadressCon">
+							北京市朝阳区霄云路26号鹏润大厦B座23层2309国美在线商务有限公司
+						</span>
+						
+					</p>
+				</div>
+			</div>
+			<div class="geidtaddress">
+				<div class="eidtNav">
+					<ul>
+						<li class="item5">设为默认</li>
+						<li class="item5">删除</li>
+					</ul>
+				</div>
+				<span class="eidt">
+					<img src="img/iconImg/edit.png"/>
+					 编辑
+				</span>
+			</div>
+			</div>
+		</div>
+		
+		
+		<div class="fsureB">
+			<a href="#" class="fsurebtn">
+				新增地址
+			</a>
+		</div>
+	</body>
+</html>

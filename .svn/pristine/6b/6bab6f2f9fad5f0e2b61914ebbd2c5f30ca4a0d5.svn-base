@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<title>分类</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/class.css" />
+	</head>
+
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<div class="fstoreSearch">
+				<span><i class="iconfont fontsize">&#xe606;</i></span>
+				<input type="text" id="fsearchStore" placeholder="搜索商品" />
+
+			</div>
+		</div>
+		<!--内容导航栏-->
+		<div class="class-content">
+			<div id="class-wine">
+				<li class="class-wine-list"><span class="borderupdown">一键选酒</span>
+					<div class="class-content-wine">
+						<div class="wine-area bttom-border">
+							<p class="wine-classify">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">新南威尔士</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</li>
+				<li class="class-wine-list"><span class="borderupdown">葡萄酒</span>
+					<!--葡萄酒-->
+					<div class="class-content-wine" style="display: block;">
+						<div class="wine-area">
+							<p class="wine-classify">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">新南威尔士</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+						<div class="wine-area ">
+							<p class="wine-classify">类型</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+						<div class="wine-area bttom-border">
+							<p class="wine-classify">葡萄种类</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</li>
+				<li class="class-wine-list"><span class="borderupdown">白酒</span>
+					<!--白酒-->
+
+					<div class="class-content-wine">
+						<div class="wine-area bttom-border">
+							<p class="wine-classify">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">新南威尔士</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li class="class-wine-list"><span class="borderupdown">洋酒</span>
+					<!--洋酒-->
+
+					<div class="class-content-wine">
+						<div class="wine-area">
+							<p class="wine-classify">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">新南威尔士</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+						<div class="wine-area bttom-border">
+							<p class="wine-classify">类型</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+
+				</li>
+				<li class="class-wine-list"><span class="borderupdown">啤酒</span>
+					<!--啤酒-->
+
+					<div class="class-content-wine">
+						<div class="wine-area">
+							<p class="wine-classify">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">新南威尔士</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+						<div class="wine-area">
+							<p class="wine-classify">类型</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+						<div class="wine-area bttom-border">
+							<p class="wine-classify">葡萄种类</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="class-wine-list"><span class="borderupdown">黄酒/养生</span>
+					<!--黄酒/养生-->
+
+					<div class="class-content-wine">
+						<div class="wine-area bttom-border">
+							<p class="wine-classify">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">新南威尔士</a>
+								</li>
+
+							</ul>
+						</div>
+
+					</div>
+				</li>
+				<li class="class-wine-list"><span class="borderupdown">酒周边</span>
+					<!--就周边-->
+
+					<div class="class-content-wine">
+						<div class="wine-area">
+							<p class="wine-classify">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">新南威尔士</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+						<div class="wine-area bttom-border">
+							<p class="wine-classify">类型</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</li>
+				<li class="class-wine-list"><span class="borderupdown">其它</span>
+					<!--其他-->
+
+					<div class="class-content-wine">
+						<div class="wine-area bttom-border">
+							<p class="wine-classify ">产区</p>
+							<ul class="wineList">
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+								<li>
+									<a href="###">波尔东</a>
+								</li>
+
+							</ul>
+						</div>
+
+					</div>
+				</li>
+			</div>
+
+		</div>
+
+		<div class="mainnav">
+			<ul class="mainnav-list">
+				<li class="item">
+					<a href="home.html"><span class="text"><i class="iconfont">&#xe608;
+</i></span>首页</a>
+				</li>
+				<li class="item">
+					<a href="class.html" style="color:#B91B34"><span class="text"><i class="iconfont">&#xe600;</i></span>分类</a>
+				</li>
+				<li class="item">
+					<a href="shoppingCart1.html"><span class="text"><i class="iconfont">&#xe611;</i></span>购物车</a>
+				</li>
+				<li class="item">
+					<a href="personalCenter.html"><span class="text"><i class="iconfont">&#xe64f;</i></span>我的</a>
+				</li>
+			</ul>
+		</div>
+
+		<script src="js/jquery3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/class.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

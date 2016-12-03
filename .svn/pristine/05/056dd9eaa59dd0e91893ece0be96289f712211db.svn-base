@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<title>评价</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/evaluate.css"/>
+	</head>
+
+	<body>
+		<div id="evaluate_wrap">
+			<!--reset--公共样式-->
+			<div class="ftopNav">
+				<a href="home.html" class="fback iconfont">
+					&#xe60a;
+				</a>
+				<span id="E_b1" class="ftopNav-t"><a href="details1.html">商品</a></span>
+				<span id="E_b2" class="ftopNav-t"><a href="goodDetil.html">详情</a></span>
+				<span id="E_b3" class="ftopNav-t"><a href="evaluate.html">评价</a></span>
+				<span class="shareIcon"><img src="img/iconImg/share.png"/></span>
+				<span class="emore"><img src="img/everydayImg/more.png" alt="" /></span>
+			</div>
+			
+			
+			<div id="evaluate_content">
+				<!--评价-->
+				<div id="evaluate_pingjia">
+					<span id="EP_p1">全部</span>
+					<span id="EP_p2">好评(456+)</span>
+					<span id="EP_p3">中评(10+)</span>
+					<span id="EP_p4">差评(0)</span>
+					<span id="EP_p5">
+						好评度<br />
+						<span id="EP_p6">100</span>
+						<span id="EP_p7">%</span>
+					</span>
+					
+				</div>
+				<!--评价列表-->
+				<div class="evaluate_list">
+					<div class="pingjia_list">
+						<div class="pingjia_list_t EP_T">
+							<img src="img/details/xiangqing1_touxiang.png" />
+							<span>气疯</span>
+							<img src="img/details/star.png" />
+						</div>
+						<div class="EP_List">
+							<div class="EP_Limage">
+								<img src="img/details/big.png"/>
+							</div>
+						</div>
+						<p id="EP_p8">忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果忠实的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果粉果粉的果粉果粉果粉果粉果粉果粉果粉</p>
+						<p id="EP_p9">颜色:银灰 版本:全网通此处最多显示一行, 多余的内容请用省略号表示颜色:银灰 版本:全网通此处最多显示一行, 多余的内容请用省略号表示颜色:银灰 版本:全网通此处最多显示一行, 多余的内容请用省略号表示颜色:银灰 版本:全网通此处最多显示一行, 多余的内容请用省略号表示...请用省略号表示..</p>
+						<p id="EP_p10">2016-10-25-20-43-15</p>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+		<!--公共样式购物车-->
+		<div class="fbnav">
+			<span class="gwidth fcollect"><i class="iconfont Icon fcollect">&#xe616;</i>收藏</span>
+			<span class="gwidth addshopcart"><i class="iconfont Icon scart">&#xe611;</i>购物车 <span class="rightleft">4</span></span>
+			<span class="gwidth btn faddCartbtn">加入购物车</span>
+			<span class="gwidth btn fbuyNow">立即购买</span>
+		</div>
+	</body>
+
+</html>

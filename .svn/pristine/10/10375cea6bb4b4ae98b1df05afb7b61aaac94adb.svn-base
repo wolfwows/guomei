@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="utf-8" />
+		<meta name="Keywords" content="国美,国美商城,国美在线,国美酒节" />
+		<meta name="Description" content="国美酒节是一个网上销售酒节的促销活动" />
+		<title>国美首页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+	</head>
+
+	<body>
+		<!--搜索框-->
+		<div id="home-top">
+			<div id="logo">
+				<img class="logo" src="img/homeImg/homelog.png"/>
+				<img class="smallfont1" src="img/homeImg/smallfont1.png"/>
+				<span id="line">
+					
+				</span>
+				<img class="smallfont2" src="img/homeImg/smallfont2.png"/>
+			</div>
+			
+			<form action="">
+				<input type="text" name="search" class="iconfont" id="search" value="" placeholder=" &#xe606; 拉菲"/>
+				<!--<input type="button" id="flogin" value="登录" />-->
+				<a href="login.html" id="flogin">登录</a>
+				
+			</form>
+		</div>
+		
+		
+		<!--banner-->
+		<div class="banner">
+			<a href="#"><img src="img/homeImg/h-banner.jpg"/></a>
+		</div>
+		
+		<!--四个白色圆形链接-->
+		<div class="fourlist">
+			<ul class="fourlist-nav">
+				<li class="fourlist-item"><a href="everyday.html"><span class="upfont">DAY</span><span class="downfont">每日推荐</span></a></li>
+				<li class="fourlist-item"><a href="#"><span class="upfont"><img class="fclock" src="img/homeImg/clock.png"/></span><span class="downfont">限时抢购</span></a></li>
+				<li class="fourlist-item"><a href="#"><span class="upfont">NEW</span><span class="downfont">新品上架</span></a></li>
+				<li class="fourlist-item"><a href="#"><span class="upfont">TOP</span><span class="downfont">热销推荐</span></a></li>
+			</ul>
+		</div>
+		
+		<!--活动精选-->
+		<div class="fselect">
+			<div class="fhline"></div>
+			<h3 class="fstitle">活动精选</h3>
+			<div class="fscon">
+				<div class="fsleft">
+					<div class="fwine-detail">
+						<h2 class="fwinecus">国美酒节</h2>
+						<p class="fwine">意大利名酒</p>
+						<p class="fsecond">19.9元秒</p>
+					</div>
+					<div class="fsleftimg">
+						<img src="img/homeImg/hot1.jpg"/>
+					</div>
+					
+				</div>
+				<div class="fsright">
+					<img src="img/homeImg/hot2.jpg"/>
+				</div>
+				<div class="fsconList">
+					
+				</div>
+				
+				
+				<div class="fsconimg">
+				<ul>
+					<li class="fsconimg-item"><a href="#"><img src="img/homeImg/hot1.png"/></a></li>
+					<li class="fsconimg-item"><a href="#"><img src="img/homeImg/hot2.png"/></a></li>
+					<li class="fsconimg-item"><a href="#"><img src="img/homeImg/hot3.png"/></a></li>
+					<li class="fsconimg-item"><a href="#"><img src="img/homeImg/hot4.png"/></a></li>
+					<li class="fsconimg-item"><a href="#"><img src="img/homeImg/hot5.png"/></a></li>
+				</ul>
+			</div>
+			</div>
+			
+			
+			
+			
+		</div>
+		
+		<!-- 为您推荐-->
+		<div class="ftuijian">
+			<div class="fhline"></div>
+			<h3 class="fstitle">为您推荐</h3>
+			
+			<div class="ftuijian-con">
+				<ul>
+					<li class="ftuijian-item">
+						<a class="item-img" href="#"><img src="img/homeImg/rem1.png"/></a>
+						<p class="fdetail">澳洲原瓶进口红酒洛城山庄干红葡萄酒</p>
+						<p class="fprice"><span class="frmb">￥</span>318.00</p>
+						
+					</li>
+					<li class="ftuijian-item">
+						<a class="item-img" href="#"><img src="img/homeImg/rem2.png"/></a>
+						<p class="fdetail">澳洲原瓶进口红酒洛城山庄干红葡萄酒</p>
+						<p class="fprice"><span class="frmb">￥</span>318.00</p>
+						
+					</li>
+					<li class="ftuijian-item">
+						<a class="item-img" href="#"><img src="img/homeImg/rem1.png"/></a>
+						<p class="fdetail">澳洲原瓶进口红酒洛城山庄干红葡萄酒</p>
+						<p class="fprice"><span class="frmb">￥</span>318.00</p>
+						
+					</li>
+					<li class="ftuijian-item">
+						<a class="item-img" href="#"><img src="img/homeImg/rem2.png"/></a>
+						<p class="fdetail">澳洲原瓶进口红酒洛城山庄干红葡萄酒</p>
+						<p class="fprice"><span class="frmb">￥</span>318.00</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--主导航-->
+		
+		<div class="mainnav">
+			<ul class="mainnav-list">
+				<li class="item"><a href="home.html" style="color:#B91B34"><span class="text"><i class="iconfont">&#xe608;
+</i></span>首页</a></li>
+				<li class="item"><a href="class.html"><span class="text"><i class="iconfont">&#xe600;</i></span>分类</a></li>
+				<li class="item"><a href="shoppingCart1.html"><span class="text"><i class="iconfont">&#xe611;</i></span>购物车</a></li>
+				<li class="item"><a href="personalCenter.html"><span class="text"><i class="iconfont">&#xe64f;</i></span>我的</a></li>
+			</ul>
+		</div>
+	</body>
+
+</html>

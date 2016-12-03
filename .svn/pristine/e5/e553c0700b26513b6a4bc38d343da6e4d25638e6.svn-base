@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>详情</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/goodetailBigImg.css"/>
+		
+		
+		
+	</head>
+	<body>
+		<div class="blackbgCon">
+			
+		
+		<div class="bgnone">
+			<span class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</span>
+			<span class="ftopNav-t"><b class="imgOrder">1</b>/<i class="tatalImg">5</i></span>
+		</div>
+		
+		<!--图片轮播区-->
+		<div class="flunbo">
+			<ul id="lunboList">
+				<li class="item8"><img src="img/goodsDetailImg/big1.jpg"/></li>
+				<li class="item8"><img src="img/goodsDetailImg/big1.jpg"/></li>
+				<li class="item8"><img src="img/goodsDetailImg/big1.jpg"/></li>
+				<li class="item8"><img src="img/goodsDetailImg/big1.jpg"/></li>
+				<li class="item8"><img src="img/goodsDetailImg/big1.jpg"/></li>
+			</ul>
+			
+		</div>
+		
+		</div>
+		<script src="js/jquery3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/touch-0.2.14.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/goodsDetailImgLunbo.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+</html>

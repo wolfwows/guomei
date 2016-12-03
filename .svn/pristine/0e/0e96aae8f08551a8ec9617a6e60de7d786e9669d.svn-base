@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>选择配送方式</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/selectSendStyle.css" />
+
+	</head>
+
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<span class="ftopNav-t">选择配送方式
+			</span>
+		</div>
+
+		<div class="fbillInfo sendT">
+			<p class="fbillInfoName">配送时间</p>
+			<div class="fflex">
+				<span class="fneedBill isneed">工作日送货
+				<a href="javascript:" class="fgouxuan"  style="display: block;"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+				<span class="fNoNeedBill isneed sundaysend">双休/节假日送货
+			<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+
+				<span class="fNoNeedBill isneed timeNoR">时间不限
+			<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			</div>
+
+		</div>
+
+		<div class="fbillInfo billT">
+			<p class="fbillInfoName">配送方式</p>
+			<p class="senduser">由【<span class="plateForm">国美在线</span>】配送<span class="sendNum">3</span>件商品</p>
+			<div class="sendImgs">
+				<img class="smallImg" src="img/sendStyleImg/goods1.jpg" />
+				<img class="smallImg bigImg" src="img/sendStyleImg/goods2.jpg" />
+				<img class="smallImg" src="img/sendStyleImg/goods3.jpg" />
+			</div>
+			<div class="fflex flex1">
+				<span class="fNoNeedBill isneed">快递
+			<a href="javascript:" class="fgouxuan" style="display: block;"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+				<span class="fNoNeedBill isneed">平邮
+			<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+				<span class="fNoNeedBill isneed">邮政
+			<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			</div>
+
+		</div>
+		
+		
+		
+		
+		
+		<div class="fbillInfo">
+			<p class="fbillInfoName">配送方式</p>
+			<p class="senduser">由【<span class="plateForm">普美斯数码专营</span>】配送<span class="sendNum">3</span>件商品</p>
+			<div class="sendImgs">
+				<img class="smallImg" src="img/sendStyleImg/goods1.jpg" />
+				<img class="smallImg bigImg" src="img/sendStyleImg/goods4.jpg" />
+				<img class="smallImg" src="img/sendStyleImg/goods3.jpg" />
+			</div>
+			<div class="fflex flex2">
+				<span class="fNoNeedBill isneed">快递
+			<a href="javascript:" class="fgouxuan" style="display: block;"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+				<span class="fNoNeedBill isneed">平邮
+			<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+				<span class="fNoNeedBill isneed">邮政
+			<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			</div>
+
+		</div>
+
+		<div class="fsureB">
+			<span class="fsurebtn">
+				确认
+			</span>
+		</div>
+
+		<script src="js/jquery3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/billInfo.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

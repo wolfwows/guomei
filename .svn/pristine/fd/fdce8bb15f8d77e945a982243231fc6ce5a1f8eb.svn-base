@@ -1,0 +1,302 @@
+html,body{
+	padding: 10% 0 15% 0 ;
+}
+#home-top {
+	width: 100%;
+	height: 5rem;
+	background-color: #b91b34;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 10000;
+}
+
+#home-top #logo {
+	position: absolute;
+	width: 31px;
+	height: 4.5rem;
+	left: 20px;
+	bottom: 5px;
+}
+
+#home-top #logo .logo {
+	width: 25px;
+}
+
+.smallfont1,
+.smallfont2 {
+	position: absolute;
+	left: 0px;
+}
+
+.smallfont1 {
+	bottom: 15px;
+}
+
+.smallfont2 {
+	bottom: 3px;
+}
+
+#line {
+	width: 22px;
+	height: 1px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 12px;
+	left: 2px;
+}
+
+
+/*搜索框*/
+
+#search {
+	width: 60%;
+	height: 2.1rem;
+	font-size: 1.3rem;
+	line-height: 2.1rem;
+	position: absolute;
+	bottom: 10px;
+	left: 70px;
+	border:none;
+	outline: none;
+}
+
+#flogin {
+	color: #fff;
+	display: inline-block;
+	font-size: 1.1rem;
+	width: 11%;
+	text-align: center;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	background-color:#b91b34 ;
+	border:none;
+	outline: none;
+}
+
+.banner {
+	height: 10rem;
+	overflow: hidden;
+}
+
+.banner img {
+	width: 100%;
+}
+
+
+/*四个圆形导航*/
+
+.fourlist {
+	position: relative;
+	height: 6.1rem;
+}
+
+.fourlist .fourlist-nav {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	
+	/*zoom: 1;*/
+}
+
+.fourlist .fourlist-nav .fourlist-item {
+	background-color: #fff;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	float: left;
+	margin:15px 8px;
+	text-align: center;
+}
+/*.fourlist-item:nth-of-type(1){
+	margin-left: 0px !important;
+}*/
+
+.fourlist .fourlist-nav .fourlist-item a span {
+	display: block;
+}
+
+.fourlist .fourlist-nav .fourlist-item a .upfont {
+	color: #f00;
+	font-size: 1.2rem;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.fourlist .fourlist-nav .fourlist-item a .downfont {
+	color: #000;
+	font-size: 0.8rem;
+}
+
+.fclock {
+	width: 32px;
+	vertical-align: top;
+}
+
+
+/*活动精选*/
+
+.fselect {
+	width: 100%;
+	position: relative;
+	margin-top: 12px;
+}
+
+.fhline {
+	width: 90%;
+	height: 1px;
+	background-color: darkgray;
+	margin: 0 auto;
+}
+
+.fstitle {
+	width: 25%;
+	background-color: #f9f9f9;
+	height: 24px;
+	position: absolute;
+	top: -12px;
+	left: 50%;
+	margin-left: -12.5%;
+	font-weight: normal;
+	text-align: center;
+	line-height: 24px;
+	color: #b4b4b4;
+}
+
+.fscon {
+	width: 95%;
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+
+.fsleft {
+	background-color: #fff;
+	width: 65%;
+	overflow: hidden;
+	float: left;
+}
+
+.fwine-detail {
+	width: 50%;
+	height: 100px;
+	text-align: left;
+	padding: 5px;
+	float: left;
+}
+
+.fwine-detail .fwinecus {
+	padding: 5px;
+}
+
+.fwine {
+	padding: 5px;
+	color: #333;
+}
+
+.fsecond {
+	font-size: 1.1rem;
+	color: #e43643;
+	padding: 5px;
+}
+
+.fsleftimg {
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+.fsleftimg img {
+	width: 80%;
+}
+
+.fsright {
+	width: 32%;
+	height: 110px;
+	float: left;
+	text-align: center;
+	background-color: #fff;
+	margin-left: 3%;
+}
+
+.fsright img {
+	/*width: 82%;*/
+	height: 100%;
+}
+
+.fsconimg {
+	width: 100%;
+	padding-top: 5px;
+	overflow: hidden;
+}
+
+.fsconimg-item {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.fsconimg-item a img {
+	width: 100%;
+}
+
+.ftuijian {
+	width: 100%;
+	margin: 20px auto 0;
+	position: relative;
+}
+
+.ftuijian-con {
+	overflow: hidden;
+	width: 95%;
+	margin: 20px auto 0;
+}
+
+.ftuijian-con ul .ftuijian-item {
+	width: 42.5%;
+	height: 160px;
+	background: #fff;
+	padding: 3%;
+	float: left;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+
+.ftuijian-con ul li.ftuijian-item:nth-child(2n+1) {
+	margin-left: 0;
+}
+
+.item-img {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.item-img img {
+	width: 100%;
+}
+
+.fdetail {
+	font-size: 0.8rem;
+	line-height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.fprice {
+	color: #f00;
+	font-size: 1.2rem;
+}
+
+.fprice .frmb {
+	font-size: 0.6rem;
+}
+.colorred{
+	color:#B91B34;
+}
+

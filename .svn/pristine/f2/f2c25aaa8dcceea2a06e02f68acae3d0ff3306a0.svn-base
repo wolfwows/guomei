@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>更换绑定手机</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/changeBindP2.css"/>
+	</head>
+
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<span class="ftopNav-t">更换绑定手机</span>
+			<span class="ftype">提交</span>
+		</div>
+		
+		<div class="fcheckProgress">
+				<div class="foneStep">
+					<div class="fone">
+						1
+					</div>
+					<p class="fcphone">验证已绑定手机</p>
+				</div>
+				<div class="fprogressLine"></div>
+				<div class="ftwoStep" id="fredColor">
+					<div class="ftwo">
+						2
+					</div>
+					<p class="fcpsd">验证新手机</p>
+				</div>	
+				
+			</div>
+		
+		<div class="flogoinCon">
+			<p class="flogindes">
+				验证手机号，您可以用手机号登录国美平台，还可以在第一时间获得我们的短信通知,便于您及时获知订单状态。
+			</p>
+		
+			<form action="">
+				<label for="fphoneNumber">手机号码:</label><br />
+				<input type="text" id="fphoneNumber" name="fphoneNumber" placeholder="请输入手机号码" />
+				<span id="getCheckNum"><i class="times"></i><b class="tips">获取验证码</b></span><br />
+				<label for="fcheckNumber">验证码:</label><br />
+				<input type="text" id="fcheckNumber" name="fcheckNumber" placeholder="点击获取验证码" /><br />
+				<a href="#" id='fsubmit'/>提交</a>
+			</form>
+		
+		</div>
+		<script src="js/jquery3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>店铺搜索2</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	</head>
+
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<div class="fstoreSearch">
+				<span><i class="iconfont fontsize">&#xe606;</i></span>
+				<input type="text" id="fsearchStore" placeholder="搜索店铺内商品"/>
+			</div>
+			<a href="javascript:" class="ftype">分类</a>
+		</div>
+		
+		<!--排序方式-->
+		<div class="fsort">
+			<ul class="fsortList">
+				<li class="fsortItem redbottom">销量</li>
+				<li class="fsortItem">价格
+					<img class="fsortUp" src="img/storeSearchImg/upArow.png" alt="升序" />
+				</li>
+				<li class="fsortItem">新品</li>
+				<li class="fsortItem">人气</li>
+			</ul>
+			
+		</div>
+		
+		
+		<div class="fstoreCon">
+			<a  class="fgoods" href="#">
+				<img src="img/storeImg/conImg1.png"/>
+			</a>
+			<a class="fgoods" href="#">
+				<img src="img/storeImg/conImg1.png"/>
+			</a>
+			
+		</div>
+		
+		
+		
+		<!--店铺分类-->
+		<div class="fstoreClassify">
+			<ul class="fClassifyList">
+				<li class="fall">全部分类</li>
+				<li class="fClassifyItem"><span>葡萄酒</span><i class="iconfont">&#xe620;</i>
+					
+					<ul class="ftwoNav">
+						<li class="fnavItem"><a class="fClassifyName" href="#">甜白葡萄酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">名庄</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">桃红葡萄酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">香槟/起泡</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">白葡萄酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">红白葡萄酒</a></li>
+					</ul>
+				</li>
+				<li class="fClassifyItem"><span>酒柜套装</span><i class="iconfont">&#xe620;</i>
+					<ul class="ftwoNav">
+						<li class="fnavItem"><a class="fClassifyName" href="#">红色酒柜</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">黑色酒柜</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">暗红酒柜</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">红黑色酒柜</a></li>
+						
+					</ul>
+				</li>
+				<li class="fClassifyItem"><span>啤酒</span><i class="iconfont">&#xe620;</i>
+					<ul class="ftwoNav">
+						<li class="fnavItem"><a class="fClassifyName" href="#">青岛啤酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">燕京啤酒</a></li>
+						
+					</ul>
+					
+				</li>
+				<li class="fClassifyItem"><span>中国白酒</span><i class="iconfont">&#xe620;</i>
+					<ul class="ftwoNav">
+						<li class="fnavItem"><a class="fClassifyName" href="#">二锅头</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">茅台</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">五粮液</a></li>
+					
+					</ul>
+				</li>
+				<li class="fClassifyItem"><span>多支套餐</span><i class="iconfont">&#xe620;</i>
+					<ul class="ftwoNav">
+						<li class="fnavItem"><a class="fClassifyName" href="#">甜白葡萄酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">名庄</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">桃红葡萄酒</a></li>
+					
+					</ul>
+				</li>
+				<li class="fClassifyItem"><span>洋酒烈酒</span><i class="iconfont">&#xe620;</i>
+					<ul class="ftwoNav">
+						<li class="fnavItem"><a class="fClassifyName" href="#">甜白葡萄酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">名庄</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">桃红葡萄酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">香槟/起泡</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">白葡萄酒</a></li>
+						<li class="fnavItem"><a class="fClassifyName" href="#">红白葡萄酒</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+		
+		
+
+	</body>
+
+</html>

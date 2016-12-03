@@ -1,0 +1,119 @@
+body{
+	width: 100%;
+}
+.forderPayCon{
+	width: 100%;
+}
+.forderInfo{
+	width: 100%;
+	height: 5rem;
+	padding:8% 0 8% 5%;
+	background-color: #FFFFFF;
+}
+.forederState{
+	color:#555555;
+	line-height: 2.2rem;
+}
+.forderTip{
+	color:#333333;
+	font-size:1.1rem;
+}
+.forderTip #fshouldPay{
+	font-size:1.05rem ;
+	color:#FF0000;
+}
+.fPayType{
+	width: 100%;
+	margin: 3% 0;
+	
+}
+.fbgcolor{
+	margin-bottom: 3%;
+	background-color:#FFFFFF ;
+	padding:5% 0;
+}
+.fPayType img{
+	margin: 0 5%;
+	width: 9%;
+}
+.rightArow{
+	font-size:1rem;
+	float: right;
+	margin-right: 5%;
+	line-height:1.8rem;
+}
+
+
+/*遮罩层*/
+.fcoverdiv{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position:absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.flalert{
+	width: 80%;
+	height: 12rem;
+	background: #FFFFFF;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	display: none;
+}
+.falertTop{
+	width: 100%;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	background-color:#f2f2f2 ;
+	text-align: center;
+	font-size:1.1rem;
+	color: #555555;
+	position: relative;
+}
+.alertClose{
+	position: absolute;
+	width: 8%;
+	right:5%;
+	top:20%;
+}
+.falertDes{
+	color:#777777;
+	/*font-size:1rem;*/
+	line-height: 1.5rem;
+	text-align: center;
+	padding:5% 8%;
+}
+.ftwobtn{
+	width: 100%;
+	
+}
+.continueBtn,.leaveBtn{
+	
+	width: 40%;
+	height: 2rem;
+	border-radius: 0.2rem;
+	-webkit-border-radius: 0.2rem;
+	text-align: center;
+	line-height: 2rem;
+	font-size:1.1rem;
+	position: absolute;
+	bottom:6%;
+}
+.continueBtn{
+	border:1px solid lightgray;
+	color:#555555;
+	left:6%;
+	
+}
+.leaveBtn{
+	border:1px solid #b91b34;
+	color:#fff;
+	right:6%;
+	background-color:#b91b34 ;
+}

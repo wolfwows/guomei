@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>发票信息2</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	</head>
+	
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<span class="ftopNav-t">发票信息
+			</span>
+		</div>
+		
+		<div class="fbillInfo">
+			<p class="fbillInfoName">发票信息</p>
+			<span class="fneedBill">需要发票
+				<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			<span class="fNoNeedBill">暂时不需要发票
+			<a href="javascript:" class="fgouxuan" style="display: block;"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			
+		</div>
+		
+		<div class="fsureB">
+			<span class="fsurebtn">
+				确认
+			</span>
+		</div>
+	</body>
+</html>

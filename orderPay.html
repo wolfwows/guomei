@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>订单支付</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/orderPay.css" />
+
+	</head>
+
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<span class="ftopNav-t">订单支付</span>
+			<a href="#" class="ftype close">关闭</a>
+		</div>
+
+		<div class="forderPayCon">
+			<div class="forderInfo">
+				<p class="forederState">订单提交成功,请您尽快付款!</p>
+				<p class="forderTip">应付金额 <span id="fshouldPay">￥298.00</span></p>
+			</div>
+
+			<div class="fPayType">
+				<p class="faliPay fbgcolor"> <img src="img/iconImg/wechat.jpg" />支付宝
+					<i class="iconfont rightArow">&#xe603;</i>
+				</p>
+				<p class="fwechatPay fbgcolor"> <img src="img/iconImg/alipay.jpg" />微信支付
+					<i class="iconfont rightArow">&#xe603;</i>
+				</p>
+			</div>
+		</div>
+		
+		
+		<div class="fcoverdiv">
+			<div class="flalert">
+				<div class="falertTop">
+					<span>确认离开收银台?</span>
+					<img class="alertClose" src="img/iconImg/alertclose.png"/>
+				</div>
+				<p class="falertDes">
+						商品很抢手,超时未支付订单自动取消,您可以继续支付
+					</p>
+					<div class="ftwobtn">
+						<div class="continueBtn">继续支付</div>
+						<div class="leaveBtn">确认离开</div>
+					</div>
+			</div>
+		</div>
+	</body>
+
+</html>

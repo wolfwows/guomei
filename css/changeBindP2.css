@@ -1,0 +1,31 @@
+.fprogressLine{
+	width: 40%;
+	left:32.5%;
+}
+.fcphone{
+	padding:9% 0;
+}
+.ftwo{
+	background-color:#f00;
+}
+.fcpsd{
+	color:#f00;
+}
+.flogoinCon{
+	width: 95%;
+	padding: 10% 0;
+	margin:0 auto;
+}
+#fsubmit{
+	margin:0;
+}
+
+#fphoneNumber{
+	width: 58%;
+}
+#fphoneNumber,#fcheckNumber{
+    margin-bottom: 5% !important;
+}
+.flogoinCon{
+	padding:6% 0 !important;
+}

@@ -1,0 +1,350 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	color:#999999;
+	position: relative;
+	
+}
+.editOrderCon{
+	width: 100%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #D2D2D2;
+	overflow: hidden;
+}
+.editAdress{
+	width: 100%;
+	height: 6rem;
+}
+.frightArow{
+	float: right;
+	font-size:1.2rem;
+	position: absolute;
+	right:3%;
+	top:50%;
+	margin-top:-3%;
+	
+}
+.edittip{
+	padding:2% 3%;
+	float:left;
+	line-height: 5rem;
+}
+.colorbottom{
+	width: 100%;
+	height: 0.2rem;
+	position:absolute;
+	bottom: -2%;
+	left:1%;
+	overflow: hidden;
+}
+.colorbottom span{
+	height: 100%;
+	display: inline-block;
+	transform: skew(45deg,0deg);
+	-webkit-transform: skew(45deg,0deg);
+	-moz-transform: skew(45deg,0deg);
+	-ms-transform:skew(45deg,0deg) ;
+	-o-transform:skew(45deg,0deg) ;
+	-khtml-transform:skew(45deg,0deg) ;
+	position: absolute;
+	bottom:0;
+}
+.colorgreen{
+	width: 6%;
+	background-color:#fec4c5;
+}
+.colorblue{
+	width:6%;
+	background-color: #cfd4fd;
+}
+.g1{
+	left:0%;
+}
+.g2{
+	left:7.5%;
+}
+.g3{
+	left:15%;
+}
+.g4{
+	left:22%;
+}
+.g6{
+	left:29%;
+}
+.g7{
+	left:36%;
+}
+.g8{
+	left:43%;
+}
+.g9{
+	left:50%;
+}
+.g10{
+	left:57%;
+}
+.g11{
+	left:64%;
+}
+.g12{
+	left:71%;
+}
+.g13{
+	left:78%;
+}
+.g14{
+	left:85%;
+}
+.g15{
+	left:92%;
+}
+
+.g16{
+	left:100%;
+}
+
+.marginb{
+	margin-bottom: 3%;
+	background-color: #fff;
+	position: relative;
+	
+}
+.fgoodsshow{
+	height:4rem;
+}
+.fgoodsshow img{
+	width: 18%;
+	vertical-align: middle;
+	margin-top:1%;
+	
+}
+#goodsImg{
+	padding-left:2%;
+}
+.nogoods{
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: absolute;
+	top:40%;
+	left:26%;
+	margin-top:-3%;
+	background: rgba(0,0,0,.5);
+	line-height: 1.7rem;
+	text-align: center;
+	color:#fff;
+	font-size:0.6rem;
+	transform: rotateZ(-30deg);
+	-webkit-transform: rotateZ(-30deg);
+	-moz-transform: rotateZ(-30deg);
+	-ms-transform: rotateZ(-30deg);
+	-khtml-transform: rotateZ(-30deg);
+	-o-transform: rotateZ(-30deg);
+}
+
+.description{
+	height: 100%;
+	position: absolute;
+	right:10%;
+	top:0%;
+}
+.goodsinfomation{
+	line-height: 4rem;
+}
+.fsend{
+	background-color: #FFFFFF;
+}
+.fpayStyle{
+	height: 3rem;
+	position: relative;
+	border-bottom: 1px solid #d2d2d2;
+	
+}
+.paytip1{
+	line-height: 3rem;
+	padding-left:2%;
+}
+.onlinePay{
+	/*margin-top:-2.5%;*/
+	line-height: 2.8rem;
+}
+.sendStyle,.billinfo{
+	height: 5rem;	
+	position: relative;
+	padding-left:2%;
+	border-bottom: 1px solid #d2d2d2;
+}
+.sendStyle{
+	height: 5rem;
+}
+.paytip2{
+	line-height: 5rem;
+}
+.delivery{
+	line-height: 1.6rem;
+	top:18%;
+}
+
+.billinfo{
+	margin-bottom: 3%;
+	height: 6rem;
+}
+.paytip3{
+	line-height:6rem;
+}
+.bill{
+	top:15%;
+}
+.bill p{
+	height:1.6rem;
+	
+}
+
+/*备注*/
+.fremarks{
+	margin-bottom: 3%;
+	width: 100%;
+	height: 5rem;
+	background: #fff;
+	padding-left:2%;
+}
+.remarkname{
+	line-height: 2rem;
+}
+.resize{
+	border: 1px solid #D2D2D2;	
+	resize: none;
+	width: 93%;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	padding-left:2%;
+	outline: none;
+}
+.goodsTall{
+	margin-bottom: 10%;
+	width: 98%;
+	height: 3rem;
+	background: #fff;
+	padding:3% 0 3% 2%;
+	border-bottom:1px solid #D2D2D2;
+}
+.sendPrice{
+	float:right;
+	line-height: 1.5rem;
+	margin-right:3%;
+	color:#333333;
+}
+.goodsTallN{
+	line-height: 1.5rem;
+}
+
+.fshouldpay{
+	width: 100%;
+	height: 2.5rem;
+	position: fixed;
+	bottom:0;
+	right:0;
+	z-index: 10003;
+	text-align: right;
+	line-height: 2.5rem;
+	background-color:#F9F9F9 ;
+}
+.shouldPayM{
+	color:#FF0000;
+	font-size:0.9rem;
+}
+.fsbmit{
+	display: inline-block;
+	height: 100%;
+	background-color:#b91b34;
+	color:#fff;
+	text-align: center;
+	padding:0 3%;
+}
+
+/*商品清单层*/
+.fgoodsListBg{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	left:100%;
+	top:0;
+	z-index: 10001;
+}
+.fgoodslist{
+	width: 88%;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	right:0;
+	z-index: 10005;
+}
+
+.fgoodslistT{
+	width: 100%;
+	height: 2.8rem;
+	line-height: 2.8rem;
+	padding-left:3%;
+	border-bottom:1px solid #D2D2D2;
+	position: relative;
+}
+.fgoodsClose{
+	position: absolute;
+	right:0.5rem;
+	
+}
+.fgoodsClose img{
+	width:50%;
+}
+.goodslistitem{
+	width: 100%;
+	overflow: hidden;
+}
+.epadding{
+	padding:5% 0 5% 2%;
+	height: 6rem;
+	
+}
+.fstores{
+	background-color:#F2F2F2 ;
+	line-height: 2.2rem;
+	padding-left:2%;
+}
+.eleftImg{
+	width: 30%;
+	height: 6rem;
+	float:left;
+	border:1px solid #D2D2D2;
+}
+.eleftImg img{
+	width: 100%;
+	height: 100%;
+}
+.erightText{
+	width: 65%;
+	height: 6rem;
+	padding-left:2%;
+	float: left;
+	font-size:0.9rem;
+	line-height: 1.1rem;
+	position: relative;
+	overflow: hidden;
+	
+}
+.egoodsPrice{
+	width: 100%;
+	
+	position: absolute;
+	bottom: 0;
+	color:#FF0000;
+	
+}
+.egoodsNumber{
+	float:right;
+	margin-right:3%;
+	color:#999999;
+}
+

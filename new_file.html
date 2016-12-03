@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+
+		<ul id="one">
+
+		</ul>
+		<script src="js/location.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var arr1 = [];
+			for(var i in iplocation) {
+
+				arr1.push(iplocation[i].id);
+
+			}
+					console.log(arr1);
+			//function sheng() {
+			//
+			//	for(var i = 0; i < arr.length; i++) {
+			//		var oli = document.createElement("li");
+			//		var ospan1=document.createElement("span");
+			//		var ospan2=document.createElement("span");
+			//		ospan1.innerHTML=arr[i];
+			//		ospan1.className="sheng";
+			//		ospan2.innerHTML="&radic;";
+			//		ospan2.className="srightIcon";
+			//		oli.appendChild(ospan1);
+			//		oli.appendChild(ospan2);
+			//		oli.className="item7";
+			//		document.getElementsByClassName("shenglist")[0].appendChild(oli);
+			//
+			//	}
+			//
+			//}
+			//sheng();
+
+			var arr2 = [];
+			var arr3 = [];
+			for(var j in provinceCityJson) {
+
+				arr2.push(j);
+
+				arr3.push(provinceCityJson[j]);
+			}
+			console.log(arr2);
+//			console.log(arr3);
+			var arr4 = [];
+			for(var k = 0; k < arr3.length; k++) {
+				for(var n = 0; n < arr3[k].length; n++) {
+					arr4.push(arr3[k][n].name);
+				}
+
+			}
+			for(var i = 0; i < arr4.length; i++) {
+				
+					var oli = document.createElement("li");
+				oli.innerHTML=arr4[i];
+				document.getElementById("one").appendChild(oli);
+				}
+				
+			
+			
+		</script>
+	</body>
+
+</html>

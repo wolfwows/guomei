@@ -1,0 +1,35 @@
+html,body{
+	width: 100%;
+	overflow: hidden;
+}
+.dobulesize{
+	width: 200%;
+	position: relative;
+}
+.dobulesizeleft,.dobulesizeright{
+	width: 50%;
+	float:left;
+}
+.fstore{
+	margin:2% 0;
+	width: 100%;
+	height:100px;
+	background: url(../img/storeImg/storebg.png) center center;
+	position: relative;
+}
+.fstore img{
+	width: 50%;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+
+.fnoMore{
+	width: 100%;
+	text-align: center;
+	color:#666;
+	padding:10% 0;
+}
+.rotate{
+	transition: 0.2s;
+}

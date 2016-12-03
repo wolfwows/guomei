@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>店铺搜索1</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/searchSotre1.css"/>
+	</head>
+
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<div class="fstoreSearch">
+				<span><i class="iconfont fontsize">&#xe606;</i></span>
+				<input type="text" id="fsearchStore" placeholder="搜索店铺内商品"/>
+				<img class="fclose" src="img/storeSearchImg/close.png" alt="关闭" />
+			</div>
+			<a href="#" class="ftype">取消</a>
+		</div>
+		
+		<!--排序方式-->
+		<div class="fsort">
+			<ul class="fsortList">
+				<li class="fsortItem redbottom">销量</li>
+				<li class="fsortItem">价格
+					<img class="fsortUp" src="img/storeSearchImg/upArow.png" alt="升序" />
+				</li>
+				<li class="fsortItem">新品</li>
+				<li class="fsortItem">人气</li>
+			</ul>
+			
+		</div>
+		
+		
+		<div class="fstoreCon">
+			<a  class="fgoods" href="#">
+				<img src="img/storeImg/conImg1.png"/>
+			</a>
+			<a class="fgoods" href="#">
+				<img src="img/storeImg/conImg1.png"/>
+			</a>
+			
+		</div>
+		
+		
+
+	</body>
+
+</html>

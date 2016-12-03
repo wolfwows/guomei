@@ -1,0 +1,47 @@
+html,body{
+	padding-bottom: 10%;
+}
+
+.timeNoR {
+	width: 22% !important;
+}
+
+
+.fflex{
+	display: flex;
+	justify-content: space-around;
+}
+
+.senduser{
+	line-height: 2rem;
+	padding-left:2%;
+	
+}
+.sendImgs{
+	overflow: hidden;
+	padding:3% 0 3% 2%;
+	
+}
+.sendImgs img{
+	float:left;
+	margin-right:3%;
+	vertical-align: middle;
+	
+}
+.sendImgs .smallImg{
+	width: 15%;
+	/*height: 2rem;*/
+}
+.sendImgs .bigImg{
+	width: 12%;
+}
+
+.fNoNeedBill{
+	width: 28%;
+}
+
+
+
+.sundaysend {
+	width: 40%;
+}

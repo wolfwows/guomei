@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>发票信息</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/billInfo1.css"/>
+	</head>
+	<body>
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<span class="ftopNav-t">发票信息
+			</span>
+		</div>
+		
+		<div class="fbillInfo billI">
+			<p class="fbillInfoName">发票信息</p>
+			<span class="fneedBill isneed">需要发票
+				<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			<span class="fNoNeedBill isneed">暂时不需要发票
+			<a href="javascript:" class="fgouxuan" style="display: block;"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			
+		</div>
+		
+		<div class="fbillInfo billT">
+			<p class="fbillInfoName">发票类型</p>
+			
+			<span class="fNoNeedBill">普通纸质发票
+			<a href="javascript:" class="fgouxuan" style="display: block;"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			
+		</div>
+		
+		<div class="fbillInfo">
+			<p class="fbillInfoName">发票抬头</p>
+			<div class="fsingleman finstance">
+				<input type="radio" name="type" checked="checked" class="selfmake" id="singleman" value="" /> <label for="singleman">个人</label>
+			</div>
+			<div class="fcompany finstance">
+				<input type="radio" name="type" class="selfmake" id="company" value="" /> <label for="company" class="labeltop">单位</label>
+				<input type="text" id="companyName" placeholder="请输入单位名称"/>
+			</div>
+			
+		</div>
+		
+		<div class="fbillInfo billC">
+			<p class="fbillInfoName">发票内容</p>
+			<p class="selectP">选择项目:</p>
+			<span class="fneedBill isneed">明细
+				<a href="javascript:" class="fgouxuan" style="display: block;"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			<span class="fneedBill isneed">酒
+				<a href="javascript:" class="fgouxuan"><img class="redReact" src="img/iconImg/redReact.png"/>
+				<img class="rightIcon" src="img/iconImg/rightIcon.png" alt="" />
+			</a>
+			</span>
+			
+			<p class="fdecide">由店铺决定，发票有店铺开具并寄出。</p>
+			
+			
+		</div>
+		
+		
+		
+		
+		<div class="fsureB">
+			<span class="fsurebtn">
+				确认
+			</span>
+		</div>
+		
+		<script src="js/jquery3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/billInfo.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

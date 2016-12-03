@@ -1,0 +1,37 @@
+#shoppingCart2_wrap {
+	background-color: rgb(236, 236, 236);
+	position: relative;
+}
+
+@font-face {font-family: "iconfont";
+  src: url('../shop_car_font/iconfont.eot?t=1477300351'); /* IE9*/
+  src: url('../shop_car_font/iconfont.eot?t=1477300351#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../shop_car_font/iconfont.woff?t=1477300351') format('woff'), /* chrome, firefox */
+  url('../shop_car_font/iconfont.ttf?t=1477300351') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../shop_car_font/iconfont.svg?t=1477300351#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-xiangqu:before { content: "\e64c"; }
+.icon-lajixiang:before { content: "\e645"; }
+
+.ico {
+	display: inline-block;
+	margin: 5px 0 0 45px;
+}
+.ico a:nth-child(1) {
+	padding-right: 20px;
+	color: darkgray;
+	border-right: 2px solid darkgray;
+}
+.ico a:nth-child(2) {
+	padding-left: 18px;
+	color: darkgray;
+}

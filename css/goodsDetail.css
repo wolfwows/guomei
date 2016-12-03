@@ -1,0 +1,75 @@
+.fgDetailCon {
+	width: 100%;
+	border-bottom: 1px solid lightgray;
+}
+
+.fgoodsInfo {
+	width: 92%;
+	margin: 0 auto;
+	border-bottom: 1px solid lightgray;
+	overflow: hidden;
+}
+
+.fstoreImg {
+	width: 20%;
+	float:left;
+}
+
+.fstoreImg img {
+	width: 100%;
+}
+
+.fgoodsText {
+	width: 70%;
+	padding-left: 3%;
+	color: #777777;
+	float: left;
+	line-height: 2rem;
+}
+
+.fgoodsText .fstorename {
+	font-weight: normal;
+	color: #333333;
+}
+
+.fgoodsText .fcom {
+	font-size: 1.1rem;
+}
+
+.fgoodsText span,
+.fgoodsText #kefuPhone {
+	padding-left: 5%;
+}
+
+#kefuPhone {
+	text-decoration: underline;
+}
+.fgoodsPing{
+	color:#777777;
+	font-size:1.2rem;
+	padding-left:5%;
+	padding-top:8%;
+	padding-bottom:8%;
+	
+	border-bottom: 1px solid lightgray;
+}
+.fpingsocre,.fpingwuliu,.fpingsaler{
+	padding-bottom:3%;
+	
+}
+.fgoodsPing img{
+	width: 45%;
+	vertical-align: middle;
+	margin-bottom:2%;
+}
+.fgoodsintro{
+	padding:0% 0% 8% 5% ;
+	color:#777777;
+	
+}
+.fstoretitle{
+	font-weight: normal;
+	color:#555;
+	line-height: 4rem;
+}
+

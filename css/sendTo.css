@@ -1,0 +1,116 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding:0;
+}
+
+.sbg{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	position: relative;
+	top:0;
+	left:0;
+}
+
+.sendToCon {
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	right: 0%;
+	top: 0px;
+	background-color: #F9F9F9;
+}
+
+.stopN{
+	width: 100%;
+	height: 44px;
+	font-size:1.2rem;
+	color:#555555;
+	
+	line-height: 44px;
+	position: relative;
+}
+.fback{
+	color: #555555;
+	position: absolute;
+	left:3%;
+}
+.stopN .ftopNav-t{
+	text-align: center;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	
+	display:inline-block;
+	margin: 0 auto;
+	
+}
+
+.sclose {
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	right: 3%;
+	top: 0;
+}
+
+.sclose img {
+	width: 60%;
+}
+
+.saddress {
+	width: 100%;
+	height: 2rem;
+	color: #555555;
+	border-bottom: 1px solid #D2D2D2;
+	position: relative;
+}
+
+.saddress .item6 {
+	float: left;
+	height: 100%;
+	line-height: 2rem;
+	text-align: center;
+	margin: 0 2%;
+}
+
+.seAdressList {
+	position: absolute;
+	left: 0;
+	top: 2rem;
+	width: 100%;
+	
+	display: none;
+	
+}
+
+.item7 {
+	width: 98%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: left;
+	margin-left:2%;
+	color:#555555;
+	border-bottom: 1px solid #D2D2D2;
+}
+.srightIcon{
+	float:right;
+	margin-right: 5%;
+	display: none;
+}
+
+.bborder{
+	color:#FF0000;
+	border-bottom:2px solid #B91B34; 
+}
+
+.bgColor{
+	background-color: #B4B4B4;
+}
+
+

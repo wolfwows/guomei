@@ -1,0 +1,44 @@
+.fcheckPrstwo {
+	width: 100%;
+	background-color: #fff;
+	height: 120px;
+	position: relative;
+}
+
+.fchangePsdCon{
+	width: 95%;
+	margin: 0 auto;
+	padding:5% 0;
+}
+.fPsdDiv{
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	line-height: 40px;
+	margin:10% 0 0 0;
+	font-size:1.1rem;
+	border:1px solid lightgray;
+}
+.fPsdTip{
+	padding:0 3%;
+}
+.fPsdRule{
+	padding:2% 5%;
+	color:#666;
+}
+#finputOldPsd,#finputNewPsd,#fcheckPsd{
+	height: 39px;
+	vertical-align: middle;
+	line-height: 40px;
+	font-size:1rem;
+	outline: none;
+	border:none;
+}
+
+#fredColor .ftwo{
+	color:#fff;
+	background: #f00;
+}
+ #fredColor .fcpsd{
+ 	color:#f00;
+ }

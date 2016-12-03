@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0" />
+		<meta charset="UTF-8">
+		<title>填写订单</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/editOrder.css" />
+	</head>
+
+	<body>
+	
+		<div class="ftopNav">
+			<a href="javascript:" class="fback iconfont" onclick="history.back()">
+				&#xe60a;
+			</a>
+			<span class="ftopNav-t">填写订单</span>
+		</div>
+		<div class="editOrderCon">
+			<div class="editAdress marginb">
+				<span class="eidtName"></span>
+				<span class="editPhone"></span>
+				<p class="edittip">请填写收货地址</p>
+				<span class="eidtApprove"></span>
+				<span class="absAddress"></span>
+				<i class="iconfont frightArow">&#xe603;</i>
+				<div class="colorbottom">
+					<span class="colorgreen g1"></span>
+					<span class="colorblue g2"></span>
+					<span class="colorgreen g3"></span>
+					<span class="colorblue g4"></span>
+					<span class="colorgreen g5"></span>
+					<span class="colorblue g6"></span>
+					<span class="colorgreen g7"></span>
+					<span class="colorblue g8"></span>
+					<span class="colorgreen g9"></span>
+					<span class="colorblue g10"></span>
+					<span class="colorgreen g11"></span>
+					<span class="colorblue g12"></span>
+					<span class="colorgreen g13"></span>
+					<span class="colorblue g14"></span>
+					<span class="colorgreen g15"></span>
+					<span class="colorblue g16"></span>
+				</div>
+			</div>
+
+			<!--商品详情-->
+			<div class="fgoodsshow marginb">
+				<span id="goodsImg">
+					<img src="img/editOrderImg/wines.jpg" alt="" />
+				
+				</span>
+				<span id="hasgoods"><img src="img/editOrderImg/singlewine.jpg" alt="" /> </span>
+				<i class="iconfont frightArow">&#xe603;</i>
+				<div class="description goodsinfomation">
+					<p>共<span class="goodsnum">3</span>件</p>
+				</div>
+				<div class="nogoods">无货</div>
+			</div>
+
+			<!--支付方式-->
+			<div class="fsend">
+				<div class="fpayStyle">
+					<p class="paytip1">支付方式</p>
+					<i class="iconfont frightArow">&#xe603;</i>
+					<div class="description onlinePay">
+						<p>在线支付</p>
+					</div>
+				</div>
+
+				<div class="sendStyle">
+					<p class="paytip2">配送方式</p>
+					<i class="iconfont frightArow">&#xe603;</i>
+					<div class="description delivery">
+						<p>普通快递</p>
+						<p>时间不限</p>
+					</div>
+
+				</div>
+
+				<div class="billinfo">
+					<p class="paytip3">发票</p>
+					<i class="iconfont frightArow">&#xe603;</i>
+					<div class="description bill">
+						<p>普通发票</p>
+						<p>个人</p>
+						<p>明细</p>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--备注-->
+			<div class="fremarks">
+				<p class="remarkname">备注</p>
+				<textarea name="" rows="2" cols="50" class="resize" placeholder="45字以内"></textarea>
+			</div>
+
+			<!--商品总计,运费-->
+			<div class="goodsTall">
+				<p class="ftallMoney">
+					<span class="goodsTallN">商品总计</span>
+					<span class="sendPrice">￥195.00</span>
+				</p>
+				<p class="sendMoney"><span class="goodsTallN">运费</span>
+					<span class="sendPrice">+￥5.00</span>
+				</p>
+			</div>
+
+		</div>
+
+		<!--商品清单-->
+		<div class="fgoodsListBg">
+			<div class="fgoodslist">
+				<div class="fgoodslistT">
+					<span>商品清单</span>
+					<a href="javascript:" class="fgoodsClose">
+						<img src="img/iconImg/alertclose.png" />
+					</a>
+				</div>
+				<ul class="goodslist">
+					<li class="goodslistitem">
+						<p class="fstores">自营店</p>
+						<div class="epadding">
+
+							<div class="eleftImg">
+								<img src="img/editOrderImg/wine1.jpg" />
+							</div>
+							<div class="erightText">
+								<p class="egoodsdes">圣芝红酒法国银奖干红原瓶进口珍藏波尔多AOC红葡萄酒类整箱6支装……</p>
+								<p class="egoodsPrice">￥199.00 <span class="egoodsNumber">x1</span></p>
+							</div>
+						</div>
+					</li>
+					
+					<li class="goodslistitem">
+						<p class="fstores">第三方店铺名称</p>
+						<div class="epadding">
+
+							<div class="eleftImg">
+								<img src="img/editOrderImg/wine1.jpg" />
+							</div>
+							<div class="erightText">
+								<p class="egoodsdes">圣芝红酒法国银奖干红原瓶进口珍藏波尔多AOC红葡萄酒类整箱6支装……</p>
+								<p class="egoodsPrice">￥199.00 <span class="egoodsNumber">x1</span></p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--应付金额-->
+		<div class="fshouldpay">
+			<p>应付金额 <span class="shouldPayM">￥200.00</span>
+				<span class="fsbmit">提交订单</span>
+
+			</p>
+		</div>
+		
+	</body>
+
+</html>

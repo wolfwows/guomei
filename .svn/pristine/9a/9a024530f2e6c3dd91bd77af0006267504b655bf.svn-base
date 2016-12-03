@@ -1,0 +1,29 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.fchangePsdCon{
+	width: 95%;
+	padding: 0 3%;
+}
+
+.fchecked{
+	color:#999999;
+	padding:10% 0;
+	font-size:1.2rem;
+}
+.fchecked .fcheckedNum{
+	color:#333;
+}
+
+.fchangePsdCon #fcheckNumber{
+	width: 58%;
+	
+}
+.fredColor{
+	color:#f00;
+}
+.fone{
+	background: #f00;
+}
+
